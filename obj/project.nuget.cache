@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "D7CkyP+q/2I=",
+  "success": true,
+  "projectFilePath": "d:\\DatabaseProjectDEV_DB\\DatabaseProjectDEV_DB.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\manoj\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\manoj\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net20\\1.0.3\\microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
