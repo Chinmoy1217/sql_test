@@ -19,11 +19,11 @@ jobs:
         uses: azure/sql-action@v2.3
         with:
           connection-string: ${{ secrets.AZURE_SQL_UAT_CONNECTION_STRING }}
-          path: './bin/Release/YourProject.dacpac'
+          path: './bin/Release/DatabaseProjectDEV_DB.dacpac'
           action: 'publish'
       - name: Deploy to PROD
         uses: azure/sql-action@v2.3
         with:
           connection-string: ${{ secrets.AZURE_SQL_PROD_CONNECTION_STRING }}
-          path: './bin/Release/YourProject.dacpac'
+          path: './bin/Release/DatabaseProjectDEV_DB.dacpac'
           action: 'publish'
