@@ -10,3 +10,4 @@ d:\DatabaseProjectDEV_DB\obj\Debug\postdeploy.sql
 d:\DatabaseProjectDEV_DB\obj\Debug\predeploy.sql
 d:\DatabaseProjectDEV_DB\obj\Debug\DatabaseProjectDEV_DB.dll
 d:\DatabaseProjectDEV_DB\obj\Debug\DatabaseProjectDEV_DB.pdb
+d:\DatabaseProjectDEV_DB\obj\Debug\DatabaseProjectDEV_DB.sqlproj.AssemblyReference.cache
