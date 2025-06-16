@@ -6,12 +6,8 @@
     <ModelCollation>1033, CI</ModelCollation>
     <RootNamespace>DatabaseProjectDEV_DB</RootNamespace>
     <SqlServerVersion>SqlAzureV12</SqlServerVersion>
-    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <!-- Do NOT add EnableDefaultSqlItems unless you have explicit Build Include lines -->
   </PropertyGroup>
-  <ItemGroup>
-    <!-- All .sql files in the project folder and subfolders -->
-    <Build Include="**\*.sql" />
-  </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
   </Target>
