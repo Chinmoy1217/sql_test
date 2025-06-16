@@ -1,4 +1,0 @@
-CREATE TABLE Orders (
-    OrderID INT PRIMARY KEY,
-    OrderDate DATETIME NOT NULL
-)
