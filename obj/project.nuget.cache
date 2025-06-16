@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "D7CkyP+q/2I=",
+  "dgSpecHash": "r72IqTseYlQ=",
   "success": true,
   "projectFilePath": "d:\\DatabaseProjectDEV_DB\\DatabaseProjectDEV_DB.sqlproj",
   "expectedPackageFiles": [
+    "C:\\Users\\manoj\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\manoj\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "C:\\Users\\manoj\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net20\\1.0.3\\microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512"
+    "C:\\Users\\manoj\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net20\\1.0.3\\microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512",
+    "C:\\Users\\manoj\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
