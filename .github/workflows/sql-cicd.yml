@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,12 +15,36 @@ jobs:
           dotnet-version: '8.0.x'
       - name: Build DACPAC
         run: dotnet build ./DatabaseProjectDEV_DB.sqlproj -c Release
+
+  deploy-to-uat:
+    needs: build
+    runs-on: windows-latest
+    environment:
+      name: UAT
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
       - name: Deploy to UAT
         uses: azure/sql-action@v2.3
         with:
           connection-string: ${{ secrets.AZURE_SQL_UAT_CONNECTION_STRING }}
           path: './bin/Release/DatabaseProjectDEV_DB.dacpac'
           action: 'publish'
+
+  deploy-to-prod:
+    needs: deploy-to-uat
+    runs-on: windows-latest
+    environment:
+      name: PROD
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
       - name: Deploy to PROD
         uses: azure/sql-action@v2.3
         with:
