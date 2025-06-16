@@ -1,0 +1,12 @@
+d:\DatabaseProjectDEV_DB\bin\Debug\DatabaseProjectDEV_DB.dacpac
+d:\DatabaseProjectDEV_DB\bin\Debug\DatabaseProjectDEV_DB.deps.json
+d:\DatabaseProjectDEV_DB\bin\Debug\DatabaseProjectDEV_DB.dll
+d:\DatabaseProjectDEV_DB\bin\Debug\DatabaseProjectDEV_DB.pdb
+d:\DatabaseProjectDEV_DB\obj\Debug\DatabaseProjectDEV_DB.GeneratedMSBuildEditorConfig.editorconfig
+d:\DatabaseProjectDEV_DB\obj\Debug\DatabaseProjectDEV_DB.sourcelink.json
+d:\DatabaseProjectDEV_DB\obj\Debug\Model.xml
+d:\DatabaseProjectDEV_DB\obj\Debug\refactor.xml
+d:\DatabaseProjectDEV_DB\obj\Debug\postdeploy.sql
+d:\DatabaseProjectDEV_DB\obj\Debug\predeploy.sql
+d:\DatabaseProjectDEV_DB\obj\Debug\DatabaseProjectDEV_DB.dll
+d:\DatabaseProjectDEV_DB\obj\Debug\DatabaseProjectDEV_DB.pdb
